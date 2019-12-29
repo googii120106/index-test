@@ -1,0 +1,55 @@
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .flex-container > div {
+     margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+
+  }
+  .flex-container  img{
+      width: 50px;
+      height: 65px;
+
+  }
+   .center > div{
+    border: 2px;
+    border-style: dotted;
+    background-color: yellowgreen;
+  }
+  .center{
+    display: flex;
+    background-color: rgb(7, 31, 54);
+    justify-content: space-between;
+    border: darkmagenta;
+    height: 500px;
+  }
+  .center p{
+    color: blanchedalmond;
+    justify-content: space-between;
+  }
+  .full{
+    display: flex;
+    background-color: DodgerBlue;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .list{
+    display: flex;
+    background-color: rgb(107, 20, 103);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 250px;
+
+
+  }
+  .footer{
+    display: flex;
+    background-color: DodgerBlue;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
